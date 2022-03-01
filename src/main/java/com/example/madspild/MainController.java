@@ -15,6 +15,11 @@ public class MainController {
         @GetMapping("/privat")
         public String privat(Model model){
             model.addAttribute("title", "Til privatpersoner - Madspild");
-            return "about";
+            return "privat";
+        }
+        @GetMapping("/virksomheder")
+        public String virksomheder(Model model){
+            model.addAttribute("title", "Til virksomheder - Madspild");
+            return "virksomheder";
         }
 }

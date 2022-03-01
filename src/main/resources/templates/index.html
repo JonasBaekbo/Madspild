@@ -1,48 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--<head th:include="head :: headerfragment"></head>
-</head>-->
-<head>
-    <title>Skal slettes!</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link href="style/main.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/f5056aab8f.js" crossorigin="anonymous"></script>
+<head th:include="head :: headerfragment"></head>
 
-
-</head>
 <body>
 <div class="container">
-    <header>
-        <ul class="nav nav-pills d-flex justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Forside</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Privatpersoner</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Virksomheder</a>
-            </li>
+    <header th:include="header :: header"></header>
 
-        </ul></header>
-    <main><p>TEKST</p></main>
-    <footer>
+    <main>
+        <h1 class="d-flex justify-content-center">MADSPILD ER NOGET LORT!</h1>
         <div class="row">
-            <div class="col float-left">
-                <p>Om siden</p>
-                <p></p>
-            </div>
-            <div class="col">
-                <p>Tekst her?</p>
-            </div>
-            <div class="col">
-                <a href="#" ><i class="fa-solid fa-square-caret-up float-right"></i></a>
-                </div>
-        </div>
+            <div class="col-md-6">
+                <h3>Kort introduktion til hvad madspild er:</h3>
+                <p>
+                    Hver dag bliver der smidt betydelige m&aelig;ngder mad ud i de danske husholdninger. Men det st&oslash;rste madspild sker, inden maden bliver solgt til forbrugerne, dvs. i processen fra produktion til salg.
+                    Spild af mad har store milj&oslash;- og klimam&aelig;ssige konsekvenser, og det er noget, alle kan v&aelig;re med til at undg&aring;. Vi kan m&aring;ske ikke rette p&aring; det ved at spise al den mad, der ellers ville v&aelig;re blevet smidt ud, men udenlandske unders&oslash;gelser peger p&aring;, at omkring halvdelen af den mad, der ryger i skraldespanden, kunne v&aelig;re spist.
+                    Madspild handler ikke kun om, hvad der g&aring;r til spilde i husholdningerne. Det handler ogs&aring; om spildet i hele k&aelig;den, dvs. under dyrkning og produktion, transport, h&aring;ndtering og indpakning i butikkerne samt tilberedning og servering i restauranterne m.m. (<a href="https://www.foedevarestyrelsen.dk/Leksikon/Sider/Madspild.aspx">https://www.foedevarestyrelsen.dk/Leksikon/Sider/Madspild.aspx</a>)  </p>
+                <h3>Madspildsk&aelig;den (<a href="https://toogoodtogo.dk/da/movement/education/food-waste-a-global-problem">https://toogoodtogo.dk/da/movement/education/food-waste-a-global-problem</a>): </h3>
+                <p><span class="fed">Produktion</span> - I den tidlige produktionsfase bidrager samfundets krav til "perfekt" udseende frugt og gr&oslash;ntsager i h&oslash;j grad til de 32% af det globale madspild, der bliver spildt i produktionsleddet (BCG, 2018).
+<br>
+                    <span class="fed">H&aring;ndtering og forarbejdning</span> - P&aring; dette stadie kan h&aring;ndteringsfejl p&aring;virke produkternes kvalitet. Udseende og emballage kan ogs&aring; for&aring;rsage problemer, da f&oslash;devaren skal matche fabrikantens standarder for at kunne s&aelig;lges. Hvis en produktionsmaskine eksempelvis s&aelig;tter en forkert etiket p&aring; et produkt, eller hvis en lagermedarbejder v&aelig;lter en palle og emballagen bliver beskadiget, vil disse produkter ikke l&aelig;ngere v&aelig;re acceptable til salg.
+<br>
+                    <span class="fed">Distribution og detailhandel</span> - Det n&aelig;stsidste led kommer, n&aring;r mad transporteres til supermarkeder og butikker, inden det s&aelig;lges derfra til forbrugerne. Her sker spildet, fordi mad har en begr&aelig;nset levetid p&aring; hylderne. Levetiden er dikteret af datom&aelig;rkningen p&aring; produkterne, som b&aring;de kan v&aelig;re inkonsekvent og forvirrende.
+                    Et yderligere problem er, at forbrugerne forventer at kunne finde friske f&oslash;devarer som m&aelig;lk, frugt og gr&oslash;ntsager p&aring; hylderne p&aring; alle tidspunkter af dagen. For at f&oslash;lge denne eftersp&oslash;rgsel er &aelig;ldre produkter, der ikke er solgt, i fare for at blive kasseret og erstattet med nyere produkter.
+                    Der kan i dette led derudover opst&aring; spild, hvis forretningerne fejlvurderer m&aelig;ngden af indk&oslash;b. Fx forventer et supermarked at s&aelig;lge en masse koldsk&aring;l, n&aring;r det bliver sommer, men hvis sommervejret lader vente p&aring; sig, br&aelig;nder forretningen inde med store m&aelig;ngder koldsk&aring;l, fordi forbrugeren ikke er i det rette sommerhum&oslash;r endnu. Alt det g&oslash;r, at der ogs&aring; i dette led bliver smidt en del spiselig og dejlig mad ud.
+<br>
+                    <span class="fed">Forbrugeren:</span> Hvis maden kommer gennem alle de &oslash;vrige dele af f&oslash;devarek&aelig;den, ender den hos forbrugeren. Det er her, at vi ser den st&oslash;rste &oslash;konomiske del af madspild. Dette skyldes, at jo l&aelig;ngere i f&oslash;devarek&aelig;den et produkt n&aring;r, f&oslash;r det smides ud, desto flere ressourcer er brugt i produktionen, og jo mere "koster det".
+                </p>
+                <h3>FN 17 Verdensm&aring;l, Delpunkt 12 og 12.3 (<a href="https://www.verdensmaalene.dk/maal/12">https://www.verdensmaalene.dk/maal/12</a>): </h3>
+<p>En stor del af verdens befolkning forbruger alt for lidt til at opfylde deres grundl&aelig;ggende behov. En halvering af det globale madspild per indbygger p&aring; forhandler- og forbrugerniveau er vigtigt for at skabe mere effektive produktionsmetoder og forsyningsk&aelig;der. Det kan forbedre f&oslash;devaresikkerheden og skubbe os i retning af en mere ressourceeffektiv &oslash;konomi.
 
-</footer>
+    Ansvarligt forbrug og produktion er et af 17 verdensm&aring;l, som indg&aring;r i udviklingsdagsordenen for b&aelig;redygtig udvikling frem mod 2030. En integreret tilgang er afg&oslash;rende for fremskridt p&aring; tv&aelig;rs af de forskellige m&aring;l.
+<br><span class="fed">Komplimenterende video fra FN: <a href="https://youtu.be/2ojNg2RZmWw">https://youtu.be/2ojNg2RZmWw</a>  </span>
+</p>
+            </div>
+            <div class="col-md-6 float-right"><img src="images/1.jpg" alt="Her skal der v&aelig;re et billede"></div>
+
+        </div>
+        </main>
+
 
 </div>
+    <footer th:include="footer :: footer"></footer>
 </body>
 </html>

@@ -28,3 +28,10 @@ footer a{
     right: 0px;
     font-size: 40px;
 }
+.copyright{
+    position: absolute;
+    bottom: 0;
+}
+.fed{
+    font-weight: bold;
+}
