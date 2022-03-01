@@ -23,9 +23,9 @@ header li{
     margin-bottom: auto;
 }
 footer a{
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
     font-size: 40px;
 }
 .copyright{
