@@ -16,7 +16,8 @@ header li{
 .nav-item:before {
     content: " ";
     position: absolute;
-    border-left: 1px #6c757d solid;
+ /*   border-left: 1px #6c757d solid;*/
+    border-left: 1px #55655c solid;
     top: 40%;
     left: 0;
     height: 30%;
@@ -36,8 +37,9 @@ footer a{
 .fed{
     font-weight: bold;
 }
+
 img{
-    padding: 4vw;
+    padding: 3vw;
     width: 100%;
     height: auto;
 }
