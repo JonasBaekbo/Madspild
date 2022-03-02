@@ -36,3 +36,8 @@ footer a{
 .fed{
     font-weight: bold;
 }
+img{
+    padding: 4vw;
+    width: 100%;
+    height: auto;
+}
