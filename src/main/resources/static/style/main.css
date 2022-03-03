@@ -63,4 +63,7 @@ img {
     width: 100%;
     height: auto;
 }
-
+.top-boarder{
+    padding-top:2vw;
+    border-top: 2px solid darkgreen;
+}
