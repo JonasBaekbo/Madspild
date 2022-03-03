@@ -27,9 +27,12 @@ footer{
     width: 100%;
 }
 footer a{
-    color: darkslategray;
+    color: #264973;
     text-decoration: none;
     padding: 1vw;
+}
+footer a:hover{
+    color: #0a58ca;
 }
 header li{
     position:relative;
