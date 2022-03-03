@@ -2,13 +2,34 @@
     min-width: 100%;
     padding: 4vw;
 }
-footer, header{
+
+@media only screen and (min-width: 1500px) and (max-width: 2000px) {
+    .container{
+        padding-right: 17vw;
+        padding-left: 17vw;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .container{
+        padding-right: 25vw;
+        padding-left: 25vw;
+    }
+}
+header{
     background-color: rgba(248,249,250, 1);
+    width: 100%;
+    margin-top: 2vh;
+}
+
+footer{
+    padding-top: 2vh;
+    background-color: rgba(39, 189, 119, 0.8);
     width: 100%;
 }
 footer a{
-    color: inherit;
+    color: darkslategray;
     text-decoration: none;
+    padding: 1vw;
 }
 header li{
     position:relative;
@@ -16,7 +37,6 @@ header li{
 .nav-item:before {
     content: " ";
     position: absolute;
- /*   border-left: 1px #6c757d solid;*/
     border-left: 1px #55655c solid;
     top: 40%;
     left: 0;
@@ -38,8 +58,8 @@ footer a{
     font-weight: bold;
 }
 
-img{
-    padding: 3vw;
+img {
+    padding: 7vh 3vw 3vh 3vw;
     width: 100%;
     height: auto;
 }
