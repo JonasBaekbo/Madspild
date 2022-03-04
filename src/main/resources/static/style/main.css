@@ -1,42 +1,48 @@
-.container{
+.container {
     min-width: 100%;
     padding: 4vw;
 }
 
 @media only screen and (min-width: 1500px) and (max-width: 2000px) {
-    .container{
-        padding-right: 17vw;
-        padding-left: 17vw;
+    .container {
+        padding-right: 10%;
+        padding-left: 10%;
     }
 }
+
 @media only screen and (min-width: 2000px) {
-    .container{
-        padding-right: 25vw;
-        padding-left: 25vw;
+    .container {
+        padding-right: 25%;
+        padding-left: 25%;
     }
 }
-header{
-    background-color: rgba(248,249,250, 1);
+
+header {
+    background-color: rgba(248, 249, 250, 1);
     width: 100%;
     margin-top: 2vh;
 }
 
-footer{
+footer {
     padding-top: 2vh;
     background-color: rgba(39, 189, 119, 0.8);
     width: 100%;
 }
-footer a{
+
+footer a {
     color: #264973;
     text-decoration: none;
     padding: 1vw;
 }
-footer a:hover{
+
+footer a:hover {
     color: #0a58ca;
 }
-header li{
-    position:relative;
+
+header li {
+    position: relative;
 }
+
 .nav-item:before {
     content: " ";
     position: absolute;
@@ -47,17 +53,20 @@ header li{
     margin-top: auto;
     margin-bottom: auto;
 }
-footer a{
+
+footer a {
     position: fixed;
     bottom: 0;
     right: 0;
     font-size: 40px;
 }
-.copyright{
+
+.copyright {
     position: absolute;
     bottom: 0;
 }
-.fed{
+
+.fed {
     font-weight: bold;
 }
 
@@ -66,7 +75,8 @@ img {
     width: 100%;
     height: auto;
 }
-.top-boarder{
-    padding-top:2vw;
+
+.top-boarder {
+    padding-top: 2vw;
     border-top: 2px solid darkgreen;
 }
